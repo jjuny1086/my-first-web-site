@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <body>
+            <h1>가장 좋을 것 같은 축구팀</h1>
+            <h2>펩의 바르셀로나</h2>
+            <h3>스타팅 트레블</h3>
+               
+            <ul>
+            <script>
+                const namelist = ["messi","xavi","iniesta","Busquets"];
+                const imglist = ["messi.jpg","xavi.jpeg","iniesta.png","busquets.jpg"];
+                var i = 0;
+                while(i< namelist.length){
+                    document.write('<li><a href="https://www.google.com/search?q=%ED%8E%A9%EC%9D%98+%EB%B0%94%EB%A5%B4%EC%85%80%EB%A1%9C%EB%82%98' + namelist[i] + '">' + namelist[i] + '</li>');
+                        document.write(
+                            '<img src ="'+ imglist[i] +' "width = "30%" >');               
+                    i = i+1
+                }
+            </script>
+         </ul>
+        </body>
+    </head>
+</html>
